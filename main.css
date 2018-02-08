@@ -5,6 +5,10 @@ body {
   padding: 5px;
 }
 
+h1 {
+  color:rgb(12,28,53);
+}
+
 .header {
   padding: 15px;
 }
