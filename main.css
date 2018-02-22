@@ -29,6 +29,7 @@ h1 {
   font-family: Germania One, serif;
   text-align: center;
   padding: 30px;
+  float: none;
 }
 
 .about {
@@ -74,7 +75,7 @@ h3 {
 }
 
 h2 {
-  display: inline;
+  margin: 1.5em;
   padding: .6em;
   text-align: center;
   background-color: maroon;
