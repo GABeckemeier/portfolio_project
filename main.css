@@ -1,23 +1,11 @@
-/*
-html {
-  background: url(images/Background2.jpg) no-repeat center center fixed;
+body {
+  background: url(images/Background_ImageOption.jpg) navy center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-*/
-body {
-  background-color: #878580;
   color: #fff;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  border-left-style: solid;
-  border-right-style: solid;
-  border-width: 150px;
-  border-color: #878580;
-
+  margin: 4em;
 }
 
 ul li {
@@ -25,6 +13,7 @@ ul li {
   font-family: Germania One, serif;
   text-align: left;
   border-bottom-style: solid;
+  border-bottom-color: maroon;
   word-spacing: 25px;
   padding: 10px;
 }
@@ -32,6 +21,7 @@ ul li {
 #MyName {
   word-spacing: normal;
   border-right-style: solid;
+  border-right-color: maroon;
   padding-right: 10px;
 }
 
@@ -81,4 +71,12 @@ h3 {
   text-align: left;
   font-family: Germania One, serif;
   padding: 15px;
+}
+
+h2 {
+  display: inline;
+  padding: .6em;
+  text-align: center;
+  background-color: maroon;
+  font-family: El Messiri, sans-serif;
 }
