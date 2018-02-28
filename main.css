@@ -5,8 +5,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
-  margin: 0;
-  padding: 0;
+  padding: 1em;
   display: inline-block;
   box-sizing: border-box;
   margin: 7.5%;
@@ -36,24 +35,29 @@ h1 {
 .about {
   background-color: #ead9a8;
   color: #494845;
-  padding: 15px;
+  padding: 1em;
   font-family: El Messiri, sans-serif;
   text-align: left;
-  display: inline-flex;
+}
+
+#Name {
+  text-align: center;
+  font-family: Germania One, serif;
 }
 
 p {
-  margin: 20px;
   display: inline-flex;
 }
 
 img {
-  display: inline-block;
   max-width: 250px;
   max-height: 115px;
   width: auto;
   height: auto;
-  margin: auto;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .experience {
@@ -61,7 +65,7 @@ img {
   color: #494845;
   display: block;
   font-family: El Messiri, sans-serif;
-  padding: 15px;
+  padding: 1em;
 }
 
 h3 {
@@ -73,7 +77,7 @@ h3 {
 .IntroSkills {
   background-color: #ead9a8;
   color: #494845;
-  padding: 15px;
+  padding: 1em;
   font-family: El Messiri, sans-serif;
   text-align: center;
 }
