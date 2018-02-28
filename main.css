@@ -1,11 +1,15 @@
 body {
-  background: url(images/Background_ImageOption.jpg) navy center center fixed;
+  background: url(images/SmokeBackground2.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
-  margin: 4em;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 7.5%;
 }
 
 ul li {
@@ -13,7 +17,6 @@ ul li {
   font-family: Germania One, serif;
   text-align: left;
   border-bottom-style: solid;
-  border-bottom-color: maroon;
   word-spacing: 25px;
   padding: 10px;
 }
@@ -21,7 +24,6 @@ ul li {
 #MyName {
   word-spacing: normal;
   border-right-style: solid;
-  border-right-color: maroon;
   padding-right: 10px;
 }
 
@@ -29,7 +31,6 @@ h1 {
   font-family: Germania One, serif;
   text-align: center;
   padding: 30px;
-  float: none;
 }
 
 .about {
@@ -42,8 +43,7 @@ h1 {
 }
 
 p {
-  margin: 30px;
-  padding: inherit;
+  margin: 20px;
   display: inline-flex;
 }
 
@@ -54,10 +54,6 @@ img {
   width: auto;
   height: auto;
   margin: auto;
-  border: solid;
-  border-width: thick;
-  border-color: black;
-  margin: 30px;
 }
 
 .experience {
@@ -71,13 +67,24 @@ img {
 h3 {
   text-align: left;
   font-family: Germania One, serif;
-  padding: 15px;
+  padding: 5px;
 }
 
-h2 {
-  margin: 1.5em;
-  padding: .6em;
-  text-align: center;
-  background-color: maroon;
+.IntroSkills {
+  background-color: #ead9a8;
+  color: #494845;
+  padding: 15px;
   font-family: El Messiri, sans-serif;
+  text-align: center;
 }
+ .Skills {
+   display: inline-block;
+   background: linear-gradient(gray, black);
+   font-family: Germania One, serif;
+   text-align: center;
+   width: 4em;
+   padding: .1em .25em;
+   border: 5%;
+   margin-right: 2.5%;
+   margin-top: 3%;
+ }
